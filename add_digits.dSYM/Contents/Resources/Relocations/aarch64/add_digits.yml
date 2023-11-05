@@ -1,6 +1,6 @@
 ---
 triple:          'arm64-apple-darwin'
-binary-path:     '/Users/vaibhavranga/VSCodeProjects/CppProjects/LearningCpp/add_digits'
+binary-path:     '/Users/vaibhavranga/VSCodeProjects/LearningCpp/add_digits'
 relocations:
   - { offsetInCU: 0x26, offset: 0x26, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x0, symBinAddr: 0x100003D04, symSize: 0xBC }
   - { offsetInCU: 0x4607, offset: 0x4607, size: 0x8, addend: 0x0, symName: __ZNSt3__14endlB7v160006IcNS_11char_traitsIcEEEERNS_13basic_ostreamIT_T0_EES7_, symObjAddr: 0xE8, symBinAddr: 0x100003DEC, symSize: 0x58 }
