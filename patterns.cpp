@@ -148,8 +148,8 @@ using namespace std;
 
 //solid full pyramid
 
-/*
-int main() {
+
+/*int main() {
     
     int n = 6;
 
@@ -162,8 +162,8 @@ int main() {
         }
         cout << endl;
     }
-}
-*/
+}*/
+
 
 
 
@@ -195,18 +195,45 @@ int main() {
 
 
 
-//inverted full pyramid
-
+//alphabetical half pyramid
+/*
 int main() {
-    int n = 4;
-
+    int n = 5;
     for (int row = 0; row < n; row++) {
-        for (int spaces = 0; spaces < row; spaces++) {
+        char start = 'A';
+        for (int spaces = 0; spaces < n - row - 1; spaces++) {
             cout << "  ";
         }
-        for (int stars = 0; stars < n - row; stars++) {
-            cout << "* ";
+        for (int chars = 0; chars < row + 1; chars++) {
+            cout << start << " ";
+            start++;
         }
         cout << endl;
     }
 }
+*/
+
+
+
+
+
+
+//numeric palindrome pyramid
+/*
+int main() {
+    int n = 5;
+
+    for (int row = 0; row < n; row++) {
+        for (int spaces = 0; spaces < n - row - 1; spaces++) {
+            cout << "  ";
+        }
+        for (int chars = 0; chars < row + 1; chars++) {
+            cout << chars + 1<< " ";
+        }
+        for (int chars = 0; chars < row; chars++) {
+            cout << row - chars<< " ";
+        }
+        cout << endl;
+    }
+}
+*/
