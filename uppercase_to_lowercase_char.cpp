@@ -3,7 +3,7 @@ using namespace std;
 
 char convert(char name)
 {
-    name -= 32;
+    name += 32;
     return name;
 }
 
